@@ -24,7 +24,7 @@ const ChatComponent: React.FC = () => {
   };
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setInput(e.target.value);
+    setInput(e.currentTarget.value);
   };  
 
   return (

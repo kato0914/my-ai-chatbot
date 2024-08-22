@@ -1,0 +1,9 @@
+name = "ai-chatbot"
+main = "src/index.ts"
+compatibility_date = "2023-01-01"
+
+[build]
+command = "npm run build"
+
+[ai]
+binding = "AI"
